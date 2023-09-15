@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+
+    header {
+        min-height: 130px;
+        text-align: center;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 24px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        padding-top: 7px;
+    }
+}
+
+
+/* Geral */
+
+header {
+    background-color: #B48307;
+}
+
+* {
+    font-family: 'Georama', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rowdies', cursive;
+    min-width: 340px; 
+    max-width: 1400px; 
+}
+
+@media screen and (max-width: 440px) {
+    header {
+        min-height: 150px;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 30px;
+        padding-top: 42px;
+    }
+}
