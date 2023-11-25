@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:ital@1&family=Raleway:wght@100;200;300;500&family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/reponsivo/header.css">
+    <!-- <link rel="stylesheet" href="assets/css/reponsivo/Responsivoheader.css"> -->
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/produtos.css">
 </head>
+
 <body>
-    
+
     <header>
-        <h1 class="titulo">Metalúrgica Manancial</h1>
-        <h2 class="subtitulo">Fabricação e restauração de gôndolas</h2>
+        <div class="info">
+            <h1 class="titulo">Metalúrgica Manancial</h1>
+            <h2 class="subtitulo">Fabricação e restauração de gôndolas!</h2>
+        </div>
         <nav class="navegacao">
-            <ul>
-                <li>
-                    <a>Home</a>
-                </li>
-                <li>
-                    <a>Produtos</a>
-                </li>
-                <li>
-                    <a>Contatos</a>
-                </li>
-            </ul>
+            <a class="navegacao-home">Home</a>
+            <a class="navegacao-produtos">Produtos</a>
+            <a class="navegacao-contatos">Contatos</a>
         </nav>
     </header>
 
     <main>
 
-        <section>
-            <img>
-            <h3>
+        <section class="publicidade">
+            <img class="publicidade-logo" src="./assets/Imagens/logometa010 1.svg" alt="Logo Metalúrgica Manancial">
+            <h3 class="publicidade-texto">
                 Precisa de uma opção confiável
                 de empresa que fabrica gôndolas
                 para lojas de qualidade?
@@ -42,26 +41,39 @@
             </h3>
         </section>
 
-        <section>
-            <h3>Produtos</h3>
+        <section class="produtos">
+            <h3 class="produtos-titulo">Produtos</h3>
+            
+            <section class="produtos-card">
+                <div class="produtos-container-one">
+                    <img class="img-one" src="./assets/Imagens/Slide1.JPG" alt="">
+                    <p class="produtos-detalhes">
+                        A Gôndola pequena é a opção ideal para organização e 
+                        exposição de itens diversos. Indicada para indústrias, 
+                        depósitos, mercados, escolas e escritórios em geral.
+                    </p>
+                    <button class="btn">Comprar</button>
+                </div>
 
-            <div>
-                <img>
-                <p>Detalhes</p>
-                <button>Comprar</button>
-            </div>
+                <div class="produtos-container-two">
+                    <img class="img-two" src="./assets/Imagens/Slide3.JPG" alt="">
+                    <p class="produtos-detalhes">
+                        Equipamento projetado para melhorar a exposição dos produtos, 
+                        confeccionado em chapa de alumínio galvanizado, tratados com 
+                        produtos anti-corrosivo e anti-ferrugem.
+                    </p>
+                    <button>Comprar</button>
+                </div>
 
-            <div>
-                <img>
-                <p>Detalhes</p>
-                <button>Comprar</button>
-            </div>
-
-            <div>
-                <img>
-                <p>Detalhes</p>
-                <button>Comprar</button>
-            </div>
+                <div class="produtos-container-three">
+                    <img class="img-three" src="./assets/Imagens/Slide4.JPG" alt="">
+                    <p class="produtos-detalhes">
+                        Ideal para farmácia, supermercados, materiais de construção, 
+                        agropecuárias e outros. Devido sua altura permite uma visão ampla central do comércio.
+                    </p>
+                    <button>Comprar</button>
+                </div>
+            </section>
         </section>
 
         <section>
@@ -132,7 +144,7 @@
         <footer>
             <p>Metalúrgica Manancial -2023</p>
             <p>&copy; Todos os direitos reservados</p>
-            <p>Desenvolvido por: 
+            <p>Desenvolvido por:
                 <span>
                     <a href="https://jonataspedro01.github.io/portfolioJP/" target="_blank">Jonatas Pedro</a>
                 </span>
@@ -141,4 +153,5 @@
 
     </main>
 </body>
+
 </html>

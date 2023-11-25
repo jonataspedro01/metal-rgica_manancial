@@ -23,14 +23,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-body {
+html {
 	line-height: 1;
     background-color: #FACA50;
 	/* background-color: red; */
 	/* overflow-x: hidden; Esconde a barra de rolagem horizontal */
     /* overflow-y: auto;   Habilita a rolagem vertical quando necessário */
 	/* overflow: hidden auto; testar */
+}
+
+* {
+    font-family: 'Georama', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rowdies', cursive;
+    min-width: 320px; 
+    /* max-width: 1400px;  */
 }
 
 ol, ul {

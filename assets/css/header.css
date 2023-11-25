@@ -1,0 +1,48 @@
+header {
+    background-color: #DBA826;
+    display: flex;
+    height: 155px;
+    font-family: 'Georama', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rowdies', cursive;
+    width: 100%;
+    /* margin: 0; */
+     justify-content: space-evenly;
+}
+
+.info {
+    margin-top: 42px;
+    margin-left: 200px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.subtitulo {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Georama', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .navegacao-home .navegacao-produtos{
+    display: flex;
+} */
+
+.navegacao {
+    margin-left: 230px;
+    margin-top: 70px;
+    /* margin-right: 0px; */
+    /* justify-content: space-between; */
+    /* background-color: red; */
+    /* width: 100%; */
+}
+
+.navegacao a {
+    cursor: pointer;
+    padding-left: 40px;
+    color: #ffffff;
+    font-size: 20px;
+}
