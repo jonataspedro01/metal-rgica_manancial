@@ -1,0 +1,39 @@
+.horarios {
+        background-color: #DBA826;
+        height: 450px;
+}
+
+.titulo-horarios {
+    color: #fff;
+    font-size: 26px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+    padding-bottom: 30px;
+}
+
+.horarios-lista {
+    background-color: #fff;
+    width: 800px;
+    padding-top: 15px;
+    margin: 0 auto;
+    height: 280px;
+}
+
+.horarios-lista li {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.linha{
+    border-bottom: 1px solid black;
+    margin-left: -180px;
+    margin-right: 90px;
+}
+
+/* .container-lista {
+    margin: 0 auto;
+} */
